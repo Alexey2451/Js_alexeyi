@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.link {
+    font-family: var(--mantine-font-family), sans-serif;
+    font-size: var(--mantine-font-size-xl);
+    text-decoration: none;
+    color: var(--mantine-color-black);
+
+    &.active {
+        font-weight: 500;
+        color: var(--mantine-primary-color-8);
+    }
+}

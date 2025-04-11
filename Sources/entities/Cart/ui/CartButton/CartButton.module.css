@@ -1,0 +1,7 @@
+.btn {
+    display: block;
+    width: 48px;
+    height: 48px;
+    color: var(--mantine-color-black);
+    cursor: pointer;
+}
